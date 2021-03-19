@@ -1,0 +1,14 @@
+{
+    "options": [
+        {
+            "value": "barchart",
+            "label": "Bar Chart",
+            "checked": false
+        },
+        {
+            "value": "piechart",
+            "label": "Pie Chart",
+            "checked": false
+        }
+    ]
+}

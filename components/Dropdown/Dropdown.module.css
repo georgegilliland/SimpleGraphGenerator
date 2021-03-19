@@ -1,0 +1,62 @@
+
+.DropdownContainer {
+    width: 125px;
+}
+
+.Dropdown {
+    border: 1px solid #C9C5C5;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Nunito';
+    color: #5c5c70;
+    text-align: center;
+}
+
+.Dropdown:hover {
+    cursor: pointer;
+    box-shadow: 0 0 16px 0 rgba(26,26,59,0.17);
+}
+
+.Dropdown:focus {
+    outline:0;
+}
+
+.Hidden {
+    display: none;
+}
+
+.dropdown-option {
+    margin: 10px 15px 10px 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-option:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.Visible {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 10px 0 0 0;
+    border: 1px solid #C9C5C5;
+    border-radius: 10px;
+    width: 125px;
+    height: 100px;
+    overflow-y: auto; 
+    font-family: 'Nunito';
+    color: #5c5c70;
+    background-color: #FFFFFF;
+    font-size: 14px;    
+    box-shadow: 0 0 16px 0 rgba(26,26,59,0.07);
+}
