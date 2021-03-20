@@ -1,0 +1,24 @@
+{
+    "options": [
+        {
+            "value": ["#F04C63","#C6C4C4","#51C5DD","#F7F6F6","#0A4F70"],
+            "label": "Default"
+        },
+        {
+            "value": ["#F0D06B","#D95A40","#BF2742","#501E31","#577C80"],
+            "label": "A"
+        },
+        {
+            "value": ["#001F23","#007A75","#5B9489","#FCBE8E","#FF0021"],
+            "label": "B"
+        },
+        {
+            "value": ["#2B4D59","#39998E","#FFDC7C","#FFAA67","#DA674A"],
+            "label": "C"
+        }, 
+        {
+            "value": ["#FFF3D9","#FFE6B3","#47AAD9","#2E6E8D","#153240"],
+            "label": "D"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+.ResultsHeaderTitle {
+    font-weight: 600;
+}
+
+
+.ResultsHeader {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 0 16px 0 rgb(26 26 59 / 8%);
+}
+
+.InnerResultsHeader {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

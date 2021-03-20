@@ -1,0 +1,24 @@
+{
+    "options": [
+        {
+            "value": "#576675",
+            "label": "Default"
+        },
+        {
+            "value": "#BF2742",
+            "label": "Red"
+        },
+        {
+            "value": "#47AAD9",
+            "label": "Blue"
+        },
+        {
+            "value": "#F0D06B",
+            "label": "Yellow"
+        }, 
+        {
+            "value": "#39998E",
+            "label": "Green"
+        }
+    ]
+}

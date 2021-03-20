@@ -24,14 +24,14 @@
 }
 
 .Dropdown:focus {
-    outline:0;
+    outline: 0;
 }
 
 .Hidden {
     display: none;
 }
 
-.dropdown-option {
+.DropdownOption {
     margin: 10px 15px 10px 15px;
     padding: 5px;
     display: flex;
@@ -39,7 +39,7 @@
     align-items: center;
 }
 
-.dropdown-option:hover {
+.DropdownOption:hover {
     background-color: lightgray;
     border-radius: 5px;
 }
@@ -52,7 +52,8 @@
     border: 1px solid #C9C5C5;
     border-radius: 10px;
     width: 125px;
-    height: 100px;
+    height: auto;
+    max-height: 100px;
     overflow-y: auto; 
     font-family: 'Nunito';
     color: #5c5c70;

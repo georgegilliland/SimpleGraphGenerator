@@ -1,0 +1,138 @@
+.ResultsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ResultsInnerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    font-size: 14px;
+}
+
+.Chart {
+    max-width: 500px;
+    min-width: 500px;
+    border: 1px solid #f6f6f6;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 16px 0 rgba(26,26,59,0.08);
+}
+
+.GraphTitle {
+    text-align: center;
+    font-size: 18px;
+}
+
+.YAxis text, .XAxis text, .BarLabel {
+    font-family: Nunito;
+    font-size: 12px !important;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SvgContainer {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+  
+.SvgContentResponsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+.DropdownContainer {
+    width: 125px;
+}
+
+.Dropdown {
+    border: 1px solid #C9C5C5;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Nunito';
+    color: #5c5c70;
+    text-align: center;
+}
+
+.Dropdown:hover {
+    cursor: pointer;
+    box-shadow: 0 0 16px 0 rgba(26,26,59,0.17);
+}
+
+.Dropdown:focus {
+    outline: 0;
+}
+
+.Hidden {
+    display: none;
+}
+
+.DropdownOption {
+    margin: 10px 15px 10px 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DropdownOption:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.Visible {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 10px 0 0 0;
+    border: 1px solid #C9C5C5;
+    border-radius: 10px;
+    width: 125px;
+    height: auto;
+    max-height: 100px;
+    overflow-y: auto; 
+    font-family: 'Nunito';
+    color: #5c5c70;
+    background-color: #FFFFFF;
+    font-size: 14px;    
+    box-shadow: 0 0 16px 0 rgba(26,26,59,0.07);
+}
+
+.ColourBlock {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.ColourBlockOuterDiv {
+    display: flex;
+}
+
+/*
+@media only screen and (max-width: 1450px) {
+    #results-container {
+        flex-direction: column;
+    }
+}
+*/

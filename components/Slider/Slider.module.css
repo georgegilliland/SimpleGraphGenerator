@@ -1,0 +1,105 @@
+.SliderTitle {
+    font-family: "Nunito";
+    color: #5c5c70;
+    font-size: 14px; 
+}
+
+.Slider {
+    -webkit-appearance: none; 
+    width: 100%; 
+    background: transparent; 
+}
+  
+.Slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+  
+.Slider:focus {
+    outline: none; 
+}
+
+.Slider::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+}
+
+.Slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    background: #576675;
+    cursor: pointer;
+    margin-top: -4px; 
+}
+
+.Slider::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    background: #576675;
+    cursor: pointer;
+}
+
+.Slider::-ms-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    background: #576675;
+    cursor: pointer;
+}
+
+.Slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: #f6f6f6;
+    border-radius: 1.3px;
+    border: 0.2px solid #f6f6f6;
+}
+
+.Slider:focus::-webkit-slider-runnable-track {
+    background: #f6f6f6;
+}
+
+.Slider::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #f6f6f6;
+  border-radius: 1.3px;
+  border: 0.2px solid #f6f6f6;
+}
+
+.Slider::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+
+.Slider::-ms-fill-lower {
+    background: #f6f6f6;
+    border: 0.2px solid #f6f6f6;
+    border-radius: 2.6px;
+}
+
+.Slider:focus::-ms-fill-lower {
+    background: #f6f6f6;
+}
+
+.Slider::-ms-fill-upper {
+    background: #f6f6f6;
+    border: 0.2px solid #f6f6f6;
+    border-radius: 2.6px;
+}
+
+.Slider:focus::-ms-fill-upper {
+    background: #f6f6f6;
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect }  from 'react';
 import Checkbox from "../Checkbox/index"
-import style from './Dropdown.module.css';
+import style from '../../pages/results.module.css';
 
 const Dropdown = ({data, handleCheckChildElement}) => {
 

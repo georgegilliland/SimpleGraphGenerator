@@ -1,0 +1,20 @@
+{
+    "options": [
+        {
+            "value": "default",
+            "label": "Default"
+        },
+        {
+            "value": "ascending",
+            "label": "Ascending"
+        },
+        {
+            "value": "descending",
+            "label": "Descending"
+        },
+        {
+            "value": "key",
+            "label": "Key"
+        }
+    ]
+}

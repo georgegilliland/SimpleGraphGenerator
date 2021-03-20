@@ -1,6 +1,11 @@
 {
     "options": [
         {
+            "value": "all",
+            "label": "All",
+            "checked": true
+        },
+        {
             "value": "barchart",
             "label": "Bar Chart",
             "checked": false

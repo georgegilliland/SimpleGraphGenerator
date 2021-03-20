@@ -21,10 +21,28 @@
 }
 
 .TitlePageButtonContainer {
-    width: 260px;
+    width: 375px;
     height: 40px;
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.SubmitButton {
+    width: 100px;
+    background-color: lightseagreen;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.SubmitButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 16px 0 rgba(26,26,59,0.17);
+}
+
+.SubmitButton:focus {
+    outline: 0;
 }
